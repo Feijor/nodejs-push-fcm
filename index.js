@@ -1,9 +1,8 @@
-const Model = require('../../lib/facade');
 var gcm = require('node-gcm');
 var tokensAndroid = [];
 var senderID = 'your_sender_ID';
 
-class pushoModel extends Model {
+class pushoModel {
   
   addToken(token) {
     tokensAndroid.push(token);
